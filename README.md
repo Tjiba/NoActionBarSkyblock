@@ -20,14 +20,6 @@ A lightweight Fabric mod that disables the action bar on Hypixel Skyblock, givin
 - **Fabric Loader**: 0.16.0+
 - **Java**: 21+
 
-## 🔨 Build
-
-```bash
-./gradlew build
-```
-
-JAR will be in `build/libs/`
-
 ## 📄 License
 
 MIT License
