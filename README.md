@@ -1,39 +1,33 @@
-# No Action Bar Skyblock
+# 🚀 No Action Bar Skyblock
 
-Un mod Minecraft Fabric 1.21.1 qui désactive l'affichage de la action bar sur Skyblock Hypixel.
+A lightweight Fabric mod that disables the action bar on Hypixel Skyblock, giving you a cleaner gameplay experience.
 
-## À propos
+## ✨ Features
 
-Ce mod supprime l'affichage de la barre d'action (action bar) qui affiche les informations comme:
-- La vie
-- Le mana
-- Souflow
-- Et autres informations Hypixel Skyblock
+- Removes the action bar overlay from Hypixel Skyblock
+- Lightweight and optimized
+- Works with other mods seamlessly
 
-Cela vous permet d'utiliser d'autres mods qui fournissent de meilleures visualisations de ces informations.
+## 📦 Installation
 
-## Installation
+1. Download the mod from [Releases](https://github.com/Tjiba/NoActionBarSkyblock/releases)
+2. Drop it in your `mods` folder
+3. Launch Minecraft with Fabric
 
-1. Assurez-vous que vous avez Fabric Loader 0.16.0 ou plus récent installé
-2. Placez le fichier JAR du mod dans votre dossier `mods`
-3. Lancez Minecraft avec le profil Fabric
+## 🎮 Requirements
 
-## Compatibilité
-
-- **Version Minecraft**: 1.21.1
-- **Loader**: Fabric Loader 0.16.0+
+- **Minecraft**: 1.21.1+
+- **Fabric Loader**: 0.16.0+
 - **Java**: 21+
 
-## Compilation
-
-Pour compiler le mod:
+## 🔨 Build
 
 ```bash
 ./gradlew build
 ```
 
-Le JAR compilé se trouvera dans `build/libs/`
+JAR will be in `build/libs/`
 
-## Licence
+## 📄 License
 
 MIT License
