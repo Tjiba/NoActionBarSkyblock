@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "noactionbarskyblock",
+  "version": "${version}",
+  "name": "No Action Bar Skyblock",
+  "description": "Désactive l'affichage de la action bar sur Skyblock Hypixel pour permettre l'utilisation d'autres mods",
+  "authors": [
+    "You"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.actionbar.Main"
+    ]
+  },
+  "mixins": [
+    "noactionbarskyblock.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21.1",
+    "java": ">=21"
+  }
+}
