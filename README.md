@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Modrinth](https://img.shields.io/modrinth/dt/noactionbarskyblock?logo=modrinth&label=Modrinth&color=00AF5C)](https://modrinth.com/mod/noactionbarskyblock)
+[![Modrinth](https://img.shields.io/modrinth/dt/noactionbarskyblock?logo=modrinth&label=Modrinth&color=00AF5C)](https://modrinth.com/mod/no-action-bar-skyblock)
 [![GitHub Release](https://img.shields.io/github/v/release/Tjiba/NoActionBarSkyblock?logo=github)](https://github.com/Tjiba/NoActionBarSkyblock/releases)
 [![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.1+-green.svg)](https://www.minecraft.net)
 [![License](https://img.shields.io/github/license/Tjiba/NoActionBarSkyblock)](https://github.com/Tjiba/NoActionBarSkyblock/blob/main/LICENSE)
