@@ -2,6 +2,11 @@
 
 A lightweight Fabric mod that disables the action bar on Hypixel Skyblock, giving you a cleaner gameplay experience.
 
+<img width="577" height="153" alt="image" src="https://github.com/user-attachments/assets/1d7b3262-89d0-4222-8c54-a8dd240b8a81" />
+
+<img width="607" height="172" alt="image" src="https://github.com/user-attachments/assets/311bb8da-6239-40cc-b5a5-bf1defc15906" />
+
+
 ## ✨ Features
 
 - Removes the action bar overlay from Hypixel Skyblock
