@@ -14,9 +14,6 @@
   "entrypoints": {
     "client": [
       "com.actionbar.Main"
-    ],
-    "modmenu": [
-      "com.actionbar.integration.ModMenuIntegration"
     ]
   },
   "mixins": [
