@@ -9,10 +9,14 @@
   ],
   "contact": {},
   "license": "MIT",
+  "icon": "icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
       "com.actionbar.Main"
+    ],
+    "modmenu": [
+      "com.actionbar.integration.ModMenuIntegration"
     ]
   },
   "mixins": [

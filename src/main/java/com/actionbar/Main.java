@@ -1,15 +1,19 @@
 package com.actionbar;
 
+import com.actionbar.command.NABCommand;
+import com.actionbar.config.ModConfig;
 import net.fabricmc.api.ClientModInitializer;
-import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
-import net.minecraft.client.gui.DrawContext;
+import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
 
 public class Main implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        // Désactive l'affichage de la action bar en intercepant le rendu du HUD
-        HudRenderCallback.EVENT.register((drawContext, tickDelta) -> {
-            // Le callback est vide, nous simplement écoutons pour logger si nécessaire
+        // Load configuration
+        ModConfig.getInstance();
+        
+        // Register /nab command
+        ClientCommandRegistrationCallback.EVENT.register((dispatcher, registryAccess) -> {
+            NABCommand.register(dispatcher);
         });
     }
 }

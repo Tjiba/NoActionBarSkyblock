@@ -1,5 +1,6 @@
 package com.actionbar.mixin;
 
+import com.actionbar.config.ModConfig;
 import net.minecraft.client.gui.hud.InGameHud;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.render.RenderTickCounter;
@@ -17,7 +18,10 @@ public class GuiMixin {
      */
     @Inject(method = "renderOverlayMessage", at = @At("HEAD"), cancellable = true)
     private void disableActionBar(DrawContext context, RenderTickCounter tickCounter, CallbackInfo ci) {
-        // Annule le rendu de la barre d'action
-        ci.cancel();
+        // Check if the mod is enabled
+        if (ModConfig.getInstance().enabled) {
+            // Annule le rendu de la barre d'action
+            ci.cancel();
+        }
     }
 }
