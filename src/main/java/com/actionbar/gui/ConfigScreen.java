@@ -8,7 +8,6 @@ import net.minecraft.text.Text;
 
 public class ConfigScreen extends Screen {
     private final Screen parent;
-    private ButtonWidget toggleButton;
     
     public ConfigScreen(Screen parent) {
         super(Text.literal("No Action Bar Skyblock Config"));
@@ -22,7 +21,7 @@ public class ConfigScreen extends Screen {
         ModConfig config = ModConfig.getInstance();
         
         // Toggle button
-        toggleButton = ButtonWidget.builder(
+        ButtonWidget toggleButton = ButtonWidget.builder(
             Text.literal("NoActionBar: " + (config.enabled ? "On" : "Off")),
             button -> {
                 config.toggle();

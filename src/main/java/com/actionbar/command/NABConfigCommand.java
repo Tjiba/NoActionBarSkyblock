@@ -1,13 +1,11 @@
 package com.actionbar.command;
 
-import com.actionbar.config.ModConfig;
 import com.actionbar.gui.ConfigScreen;
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.context.CommandContext;
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandManager;
 import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
 import net.minecraft.client.MinecraftClient;
-import net.minecraft.text.Text;
 
 public class NABConfigCommand {
     
