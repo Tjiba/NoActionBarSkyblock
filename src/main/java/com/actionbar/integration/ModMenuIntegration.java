@@ -1,13 +1,3 @@
-package com.actionbar.integration;
-
-import com.actionbar.gui.ConfigScreen;
-import com.terraformersmc.modmenu.api.ConfigScreenFactory;
-import com.terraformersmc.modmenu.api.ModMenuApi;
-
-public class ModMenuIntegration implements ModMenuApi {
-    
-    @Override
-    public ConfigScreenFactory<?> getModConfigScreenFactory() {
-        return parent -> new ConfigScreen(parent);
-    }
-}
+// This file is deprecated and no longer used.
+// ModMenu integration has been replaced with the /nabconfig command.
+// This file can be safely deleted.
