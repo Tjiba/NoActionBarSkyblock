@@ -23,7 +23,7 @@ A lightweight Fabric mod that removes the action bar overlay on Hypixel Skyblock
 ## ✨ Features
 
 - ✅ Toggle on/off with `/nab` command
-- ✅ Open config GUI with `/nabconfig` command
+- ✅ Config GUI via ModMenu
 - ✅ Zero performance impact
 
 ## 📦 Download

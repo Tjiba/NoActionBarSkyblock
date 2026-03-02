@@ -34,3 +34,9 @@ run/
 *.jar
 *.war
 *.ear
+crash-*.txt
+RELEASE_NOTES.md
+clean-for-release.bat
+build-release.bat
+RELEASE_SUMMARY.txt
+PROJECT_STRUCTURE.md

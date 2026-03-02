@@ -3,17 +3,24 @@
   "id": "noactionbarskyblock",
   "version": "${version}",
   "name": "No Action Bar Skyblock",
-  "description": "Désactive l'affichage de la action bar sur Skyblock Hypixel pour permettre l'utilisation d'autres mods",
+  "description": "Removes the action bar overlay on Hypixel Skyblock, allowing you to use other mods to display health, mana, soulflow, and other stats.",
   "authors": [
-    "You"
+    "Tjiba"
   ],
-  "contact": {},
+  "contact": {
+    "homepage": "https://github.com/Tjiba/NoActionBarSkyblock",
+    "sources": "https://github.com/Tjiba/NoActionBarSkyblock",
+    "issues": "https://github.com/Tjiba/NoActionBarSkyblock/issues"
+  },
   "license": "MIT",
   "icon": "icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
       "com.actionbar.Main"
+    ],
+    "modmenu": [
+      "com.actionbar.integration.ModMenuIntegration"
     ]
   },
   "mixins": [
@@ -23,5 +30,8 @@
     "fabricloader": ">=0.16.0",
     "minecraft": ">=1.21.1",
     "java": ">=21"
+  },
+  "recommends": {
+    "modmenu": "*"
   }
 }
